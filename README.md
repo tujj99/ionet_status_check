@@ -2,7 +2,7 @@
 
 脚本作用：定时检测io.net docker状态，如遇到状态异常则重新load新images
 
-设置方法：
+# 设置方法：
 
 # 下载脚本：
 wget .
