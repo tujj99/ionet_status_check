@@ -5,17 +5,17 @@
 # 设置方法：
 
 # 下载脚本：
-wget .
+wget https://github.com/tujj99/ionet_status_check/blob/main/ionet_check.sh
 
 # 给与运行权限：
-chmod +x .
+chmod +x ionet_check.sh
 
 加入定时任务：
 crontab -e
-*/5 * * * * * .
+*/5 * * * * * ionet_check.sh
 
 查看脚本日志：
-cat .
+cat ionet_status.log
 
 查看命令执行日志:
-cat .
+cat run.log
