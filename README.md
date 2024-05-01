@@ -10,12 +10,12 @@ wget https://github.com/tujj99/ionet_status_check/blob/main/ionet_check.sh
 # 给与运行权限：
 chmod +x ionet_check.sh
 
-加入定时任务：
+# 加入定时任务：
 crontab -e
 */5 * * * * * ionet_check.sh
 
-查看脚本日志：
+# 查看脚本日志：
 cat ionet_status.log
 
-查看命令执行日志:
+# 查看命令执行日志:
 cat run.log
