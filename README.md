@@ -12,6 +12,7 @@ chmod +x ionet_check.sh
 
 # 加入定时任务：
 crontab -e
+
 */5 * * * * * ionet_check.sh
 
 # 查看脚本日志：
